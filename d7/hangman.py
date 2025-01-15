@@ -126,7 +126,7 @@ while not end:
     status()
     if lives == 0:
        end = True
-       print("you loose")
+       print("you lose")
   print(display)
   if "_" not in display:
     end = True
@@ -134,5 +134,5 @@ while not end:
     status()
   if lives == 0:
     end = True
-    print("you loose")
+    print("you lose")
     status()
